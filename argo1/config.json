@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "slug": "argo-cloudflare",
   "description": "Argo Cloud tunnelapp",
-  "url": "https://github.com/NAzT/hassio-addons-argo-cloudflared/argo1",
+  "url": "https://github.com/NAzT/hassio-addons-argo-cloudflared/tree/master/argo1",
   "map": [
     "ssl:ro",
     "config:rw"
