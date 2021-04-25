@@ -1,0 +1,31 @@
+{
+  "name": "Argo Cloudflared Tunnel (1)",
+  "version": "1.0.0",
+  "slug": "argo-cloudflare",
+  "description": "Argo Cloud tunnelapp",
+  "url": "https://github.com/NAzT/hassio-addons-argo-cloudflared/argo1",
+  "map": [
+    "ssl:ro",
+    "config:rw"
+  ],
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7",
+    "i386"
+  ],
+  "host_network": true,
+  "startup": "system",
+  "boot": "auto",
+  "options": {
+    "pem": "",
+    "host": "",
+    "url": "localhost:8123"
+  },
+  "schema": {
+    "pem": "str",
+    "host": "str",
+    "url": "str"
+  }
+}
