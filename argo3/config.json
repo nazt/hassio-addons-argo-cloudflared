@@ -1,6 +1,6 @@
 {
     "name": "Argo Cloudflared Tunnel (3)",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "slug": "argo-cloudflare-3",
     "description": "Argo Cloud tunnelapp",
     "url": "https://github.com/NAzT/hassio-addons-argo-cloudflared/tree/master/argo3",
