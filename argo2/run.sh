@@ -62,7 +62,7 @@ bashio::log.info "Config file: \n${configfile}"
 # cloudflared --url localhost:8123
 
 echo "#!/usr/bin/env bashio" > go.sh
-echo "cloudflared-$BUILD_ARCH" --hostname "$HOST" --url "$URL" >> go.sh
+echo "cloudflared-$BUILD_ARCH" --no-autoupdate --hostname "$HOST" --url "$URL" >> go.sh
 chmod +x ./go.sh
 
 ./go.sh
